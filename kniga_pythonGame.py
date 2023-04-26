@@ -1,99 +1,98 @@
-# # import random
+# import random
 
-# # guessesTaken = 0
+# guessesTaken = 0
 
-# # print('Привет! Как тебя зовут?')
+# print('Привет! Как тебя зовут?')
 
-# # myName = input()
+# myName = input()
 
-# # number = random.randint(1, 20)
-# # print('Что ж, ' + myName + ', я загадываю число от 1 до 20.')
+# number = random.randint(1, 20)
+# print('Что ж, ' + myName + ', я загадываю число от 1 до 20.')
 
-# # for guessesTaken in range(6):
-# #     print('Попробуй угадать.') 
-# #     guess = input()
-# #     guess = int(guess)
+# for guessesTaken in range(6):
+#     print('Попробуй угадать.') 
+#     guess = input()
+#     guess = int(guess)
 
-# #     if guess < number:
-# #         print('Твое число слишком маленькое.')
-# #     if guess > number:
-# #         print('Твое число слишком большое.')
-# #     if guess == number: 
-# #         break
+#     if guess < number:
+#         print('Твое число слишком маленькое.')
+#     if guess > number:
+#         print('Твое число слишком большое.')
+#     if guess == number: 
+#         break
 
-# # if guess == number:
-# #     guessesTaken = str(guessesTaken + 1)
-# #     print('Отлично, ' + myName + '! Ты справился за ' + guessesTaken + ' попытки!')
-# # if guess != number:
-# #     number = str(number)
-# #     print('Увы. Я загадала число ' + number + '.')
+# if guess == number:
+#     guessesTaken = str(guessesTaken + 1)
+#     print('Отлично, ' + myName + '! Ты справился за ' + guessesTaken + ' попытки!')
+# if guess != number:
+#     number = str(number)
+#     print('Увы. Я загадала число ' + number + '.')
 
-# # **********************************************************************************************************
-
-
-# # print('Что получится, если скрестить снеговика с вампиром?')
-# # input()
-# # print('Обморожение!')
-# # print()
-# # print('Что дантисты называют \'черной дырой\'?')
-# # input()
-# # print('Кариес!')
-# # print()
-# # print('Тук-тук.') 
-# # input()
-# # print("Кто там?")
-# # input()
-# # print('Невежливая корова.')
-# # input()
-# # print('Невежливая корова?', end='')
-# # print('-МУУУ!')
-
-# # **********************************************************************************************************
+# **********************************************************************************************************
 
 
-# # print('Привет введи число')
+# print('Что получится, если скрестить снеговика с вампиром?')
+# input()
+# print('Обморожение!')
+# print()
+# print('Что дантисты называют \'черной дырой\'?')
+# input()
+# print('Кариес!')
+# print()
+# print('Тук-тук.') 
+# input()
+# print("Кто там?")
+# input()
+# print('Невежливая корова.')
+# input()
+# print('Невежливая корова?', end='')
+# print('-МУУУ!')
 
-# # def chooseCave():
-# #     num = int(input())
-# #     if num % 2 == 0:
-# #             print('Вася пидр')
-# #     else: 
-# #              print('Вася непидр')    
-
-# # playAgain = 'да'
-# # while playAgain == 'да' or playAgain == 'д':
-# #     chooseCave()
-# # print('Попытаете удачу еще раз? (да или нет)')
-# # playAgain = str(input())
-# # if playAgain == 'да':
-# #         print('Введи число')
-# # if playAgain != 'да':
-# #         print()
-
-# # **********************************************************************************************************
-
-# # #
-# # print('Привет введи число')
-# #
-# # def chooseCave():
-# #     num = int(input())
-# #     if num % 2 == 0:
-# #             print('Вася пидр')
-# #     else:
-# #              print('Вася непидр')
-# #
-# # playAgain = 'да'
-# # while playAgain == 'да' or playAgain == 'д':
-# #     chooseCave()
-# #     print('Попытаете удачу еще раз? (да или нет)')
-# #     playAgain = str(input())
-# #     if playAgain == 'да':
-# #         print('Введи число')
-# #     if playAgain == 'нет':
-# #         print()
+# **********************************************************************************************************
 
 
-# # **********************************************************************************************************
+# print('Привет введи число')
+
+# def chooseCave():
+#     num = int(input())
+#     if num % 2 == 0:
+#             print('Вася пидр')
+#     else: 
+#              print('Вася непидр')    
+
+# playAgain = 'да'
+# while playAgain == 'да' or playAgain == 'д':
+#     chooseCave()
+# print('Попытаете удачу еще раз? (да или нет)')
+# playAgain = str(input())
+# if playAgain == 'да':
+#         print('Введи число')
+# if playAgain != 'да':
+#         print()
+
+# **********************************************************************************************************
+
+# print('Привет введи число')
+
+# def chooseCave():
+#     num = int(input())
+#     if num % 2 == 0:
+#             print('Вася пидр')
+#     else:
+#              print('Вася непидр')
+
+# playAgain = 'да'
+# while playAgain == 'да' or playAgain == 'д':
+#     chooseCave()
+#     print('Попытаете удачу еще раз? (да или нет)')
+#     playAgain = str(input())
+#     if playAgain == 'да':
+#         print('Введи число')
+#     if playAgain == 'нет':
+#         print()
+
+
+# **********************************************************************************************************
 
 
 # import random
